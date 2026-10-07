@@ -144,7 +144,7 @@ Approved SQL
  ▼
 Execution
 
-You can make this even more impressive by having:
+We can make this even more impressive by having:
 
 Generator Agent
        ↓

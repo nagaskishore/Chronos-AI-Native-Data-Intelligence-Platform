@@ -1,0 +1,30 @@
+[
+  {
+    "id": "C-3001",
+    "symbol": "AAPL",
+    "business_date": "2026-01-05T00:00:00Z",
+    "value": 126000,
+    "currency_code": "USD"
+  },
+  {
+    "id": "C-3002",
+    "symbol": "MSFT",
+    "business_date": "2026-01-05T00:00:00Z",
+    "value": 143000,
+    "currency_code": "USD"
+  },
+  {
+    "id": "C-3003",
+    "symbol": "GOOGL",
+    "business_date": "2026-01-05T00:00:00Z",
+    "value": 119000,
+    "currency_code": "USD"
+  },
+  {
+    "id": "C-3004",
+    "symbol": "AAPL",
+    "business_date": "2026-01-06T00:00:00Z",
+    "value": 127500,
+    "currency_code": "USD"
+  }
+]

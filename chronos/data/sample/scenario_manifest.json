@@ -1,0 +1,48 @@
+{
+  "project": "Chronos",
+  "milestone": "Milestone 1",
+  "scenarios": [
+    {
+      "id": "SCN-001",
+      "name": "Schema Evolution",
+      "description": "Vendor A changes field names between version 1 and version 2.",
+      "vendor": "vendor_a",
+      "expected_handling": "Normalize both schemas into the canonical Silver schema."
+    },
+    {
+      "id": "SCN-002",
+      "name": "Schema Heterogeneity",
+      "description": "Vendors use different field names for the same business concepts.",
+      "vendor": "vendor_b/vendor_c",
+      "expected_handling": "Map vendor-specific fields into canonical fields."
+    },
+    {
+      "id": "SCN-003",
+      "name": "Duplicate Record",
+      "description": "Vendor B sends the same record more than once.",
+      "vendor": "vendor_b",
+      "expected_handling": "Detect and retain the appropriate canonical record."
+    },
+    {
+      "id": "SCN-004",
+      "name": "Conflicting Values",
+      "description": "Different vendors report different revenue values for the same ticker and business date.",
+      "vendor": "vendor_a/vendor_b/vendor_c",
+      "expected_handling": "Preserve source records in Bronze and apply a deterministic reconciliation rule in Silver."
+    },
+    {
+      "id": "SCN-005",
+      "name": "Late Arriving Data",
+      "description": "A business event arrives after later events have already been ingested.",
+      "vendor": "vendor_c",
+      "expected_handling": "Use event time and ingestion time independently."
+    },
+    {
+      "id": "SCN-006",
+      "name": "Record Revision",
+      "description": "A previously reported value is subsequently corrected.",
+      "vendor": "vendor_a",
+      "expected_handling": "Preserve historical knowledge and expose the latest valid version."
+    }
+  ]
+}

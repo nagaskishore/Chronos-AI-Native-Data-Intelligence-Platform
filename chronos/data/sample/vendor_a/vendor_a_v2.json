@@ -1,0 +1,26 @@
+[
+  {
+    "vendor_record_id": "A-1005",
+    "ticker": "MSFT",
+    "eventDate": "2026/01/06",
+    "revenue_amount": 145000,
+    "currency": "USD",
+    "status": "ACTIVE"
+  },
+  {
+    "vendor_record_id": "A-1006",
+    "ticker": "GOOGL",
+    "eventDate": "2026/01/06",
+    "revenue_amount": 121000,
+    "currency": "USD",
+    "status": "ACTIVE"
+  },
+  {
+    "vendor_record_id": "A-1007",
+    "ticker": "AAPL",
+    "eventDate": "2026/01/07",
+    "revenue_amount": 130000,
+    "currency": "USD",
+    "status": "UPDATED"
+  }
+]

@@ -118,7 +118,7 @@ Imagine the user asks:
 
 "Generate SQL to calculate the top 10 vendors by revenue."
 
-Your pipeline:
+pipeline:
 
 User
  │

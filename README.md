@@ -300,7 +300,8 @@ Supervisor
                        ▼
                 Final Answer
 
-sample output:
+Sample Output:
+
 --- RETRIEVE SCHEMA ---
 
 --- GENERATE SQL ---

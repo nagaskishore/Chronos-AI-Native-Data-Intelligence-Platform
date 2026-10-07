@@ -1,8 +1,8 @@
 Chronos — AI-Native Data Intelligence & Operations Platform
 
-Imagine a company receives data from several external vendors.
+1. Imagine a company receives data from several external vendors.
 
-The platform needs to:
+2. The platform needs to:
 
 ingest vendor data
 detect schema differences
